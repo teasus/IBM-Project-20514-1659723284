@@ -14,9 +14,9 @@
 | Team Member   | Name           | Register Number |
 | :------------ | :------------- | :-------------- |
 | Team Leader   | AHMED RASHID A | 113119UG04008   |
-| Team Member-1 | ADWAID BABU    | 113119UG04008   |
-| Team Member-2 | AJITH R        | 113119UG04008   |
-| Team Member-3 | ABISHEK YADAV  | 113119UG04008   |
+| Team Member-1 | ADWAID BABU    | 113119UG04006   |
+| Team Member-2 | AJITH R        | 113119UG04009   |
+| Team Member-3 | ABISHEK YADAV  | 113119UG04002   |
 
 ## Problem Statement
 
