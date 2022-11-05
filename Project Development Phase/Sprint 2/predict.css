@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px; 
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 20%;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0 6px 0;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: #9b59b6;
+}
+/*Gender radio button*/
+form .gender-details .gender-title{
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+form .gender-details .category1{
+    display: flex;
+    width: 80%;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+.gender-details .category1 label{
+    display: flex;
+    align-items: center;
+}
+.gender-details .category1 .dot{
+    height: 17px;
+    width: 17px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+#dot-1:checked ~ .category1 label .one,
+#dot-2:checked ~ .category1 label .two{
+    border-color: #d9d9d9;
+    background: #9b59b6;
+}
+form input[type="radio"]{
+    display: none;
+}
+/*Marriage radio button*/
+form .marrital-details .marrital-title{
+
+    font-size: 15px;
+    font-weight: 500;
+}
+form .marrital-details .category2{
+    display: flex;
+    width: 66%;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+.marrital-details .category2 label{
+    display: flex;
+    align-items: center;
+}
+.marrital-details .category2 .circle{
+    height: 17px;
+    width: 17px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+#circle-3:checked ~ .category2 label .three,
+#circle-4:checked ~ .category2 label .four{
+    border-color: #d9d9d9;
+    background: #9b59b6;
+}
+form input[type="radio"]{
+    display: none;
+}
+/*Depndents radio button*/
+form .dependents-details .dependents-title{
+    font-size: 15px;
+    font-weight: 500;
+}
+form .dependents-details .category3{
+    display: flex;
+    width: 70%;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+.dependents-details .category3 label{
+    display: flex;
+    align-items: center;
+}
+.dependents-details .category3 .round{
+    height: 17px;
+    width: 17px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+#round-5:checked ~ .category3 label .five,
+#round-6:checked ~ .category3 label .six,
+#round-7:checked ~ .category3 label .seven{
+    border-color: #d9d9d9;
+    background: #9b59b6;
+}
+form input[type="radio"]{
+    display: none;
+}
+/*Education radio button*/
+form .education-details .education-title{
+    font-size: 15px;
+    font-weight: 500;
+}
+form .education-details .category4{
+    display: flex;
+    width: 110%;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+.education-details .category4 label{
+    display: flex;
+    align-items: center;
+}
+.education-details .category4 .zero{
+    height: 17px;
+    width: 17px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+#zero-8:checked ~ .category4 label .eight,
+#zero-9:checked ~ .category4 label .nine{
+    border-color: #d9d9d9;
+    background: #9b59b6;
+}
+form input[type="radio"]{
+    display: none;
+}
+/*Self-employment radio button*/
+form .selfemployed-details .selfemployed-title{
+    font-size: 15px;
+    font-weight: 500;
+}
+form .selfemployed-details .category5{
+    display: flex;
+    width: 55%;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+.selfemployed-details .category5 label{
+    display: flex;
+    align-items: center;
+}
+.selfemployed-details .category5 .naruto{
+    height: 17px;
+    width: 17px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+#naruto-10:checked ~ .category5 label .ten,
+#naruto-11:checked ~ .category5 label .eleven{
+    border-color: #d9d9d9;
+    background: #9b59b6;
+}
+form input[type="radio"]{
+    display: none;
+}
+/*Credit history radio button*/
+form .credithistory-details .credithistory-title{
+    font-size: 15px;
+    font-weight: 500;
+}
+form .credithistory-details .category6{
+    display: flex;
+    width: 55%;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+.credithistory-details .category6 label{
+    display: flex;
+    align-items: center;
+}
+.credithistory-details .category6 .itachi{
+    height: 17px;
+    width: 17px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+#itachi-12:checked ~ .category6 label .twelve,
+#itachi-13:checked ~ .category6 label .thirteen{
+    border-color: #d9d9d9;
+    background: #9b59b6;
+}
+form input[type="radio"]{
+    display: none;
+}
+/*Property area radio button*/
+form .propertyarea-details .propertyarea-title{
+    font-size: 15px;
+    font-weight: 500;
+}
+form .propertyarea-details .category7{
+    display: flex;
+    width: 110%;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+.propertyarea-details .category7 label{
+    display: flex;
+    align-items: center;
+}
+.propertyarea-details .category7 .eren{
+    height: 17px;
+    width: 17px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+#eren-14:checked ~ .category7 label .fourteen,
+#eren-15:checked ~ .category7 label .fifteen,
+#eren-16:checked ~ .category7 label .sixteen{
+    border-color: #d9d9d9;
+    background: #9b59b6;
+}
+form input[type="radio"]{
+    display: none;
+}
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+form .button input:hover{
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
