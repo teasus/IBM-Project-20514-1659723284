@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8"
+        <title></title>
+        <link rel="stylesheet" href="predict.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+
+    </head>
+<body>
+    <div class="container">
+        <div class="title">Enter your details</div>
+        <form action="#">
+            <!--Input boxes-->
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" id ="fullname" placeholder="Enter your Name"required>
+                </div>
+                
+                <div class="input-box">
+                    <span class="details">Applicant Income</span>
+                    <input type="text" id = "applicantincome" placeholder="Enter your Income"required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Co-applicant Income</span>
+                    <input type="text" id ="coapplicantincme" placeholder="Enter Co-applicant Income"required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Loan Amount</span>
+                    <input type="text" id = "loanamount" placeholder="Enter the Loan Amount"required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Loan Amount Term</span>
+                    <input type="text" id = "loanamountterm" placeholder="Enter the Loan Amount tenure"required>
+                </div>
+            </div>
+            <!--Radio buttons-->
+            <div class="flex justify-align">
+                <div>
+                    <div class="gender-details">
+                        <input type="radio" name="gender" id="dot-1">
+                        <input type="radio" name="gender" id="dot-2">
+                        <span class="gender-title">Gender</span>
+                        <div class="category1 m-3">
+                            <label for="dot-1">
+                                <span class="dot one"></span>
+                                <span class="gender">Male</span>
+                            </label>
+                            <label for="dot-2">
+                                <span class="dot two"></span>
+                                <span class="gender">Female</span>
+                            </label>
+                        </div>
+                    </div>
+            
+                    <div class="marrital-details">
+                        <input type="radio" name="marrital" id="circle-3">
+                        <input type="radio" name="marrital" id="circle-4">
+                        <span class="marrital-title">Marrital Status</span>
+                        <div class="category2">
+                            <label for="circle-3">
+                                <span class="circle three"></span>
+                                <span class="marriage">Yes</span>
+                            </label>
+                            <label for="circle-4">
+                                <span class="circle four"></span>
+                                <span class="marriage">No</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="dependents-details">
+                        <input type="radio" name="dependents" id="round-5">
+                        <input type="radio" name="dependents" id="round-6">
+                        <input type="radio" name="dependents" id="round-7">
+                        <span class="dependents-title">Dependents</span>
+                        <div class="category3">
+                            <label for="round-5">
+                                <span class="round five"></span>
+                                <span class="dependency">1</span>
+                            </label>
+                            <label for="round-6">
+                                <span class="round six"></span>
+                                <span class="dependency">2</span>
+                            </label>
+                            <label for="round-7">
+                                <span class="round seven"></span>
+                                <span class="dependency">3+</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="education-details">
+                        <input type="radio" name="education" id="zero-8">
+                        <input type="radio" name="education" id="zero-9">
+                        <span class="education-title">Education</span>
+                        <div class="category4">
+                            <label for="zero-8">
+                                <span class="zero eight"></span>
+                                <span class="education">Graduate</span>
+                            </label>
+                            <label for="zero-9">
+                                <span class="zero nine"></span>
+                                <span class="education">Non-graduate</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="selfemployed-details">
+                        <input type="radio" name="selfemployed" id="naruto-10">
+                        <input type="radio" name="selfemployed" id="naruto-11">
+                        <span class="selfemployed-title">Self-Employed</span>
+                        <div class="category5">
+                            <label for="naruto-10">
+                                <span class="naruto ten"></span>
+                                <span class="selfemployment">Yes</span>
+                            </label>
+                            <label for="naruto-11">
+                                <span class="naruto eleven"></span>
+                                <span class="selfemployment">No</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="credithistory-details">
+                        <input type="radio" name="credithistory" id="itachi-12">
+                        <input type="radio" name="credithistory" id="itachi-13">
+                        <span class="credithistory-title">Credit History</span>
+                        <div class="category6">
+                            <label for="itachi-12">
+                                <span class="itachi twelve"></span>
+                                <span class="credit">Yes</span>
+                            </label>
+                            <label for="itachi-13">
+                                <span class="itachi thirteen"></span>
+                                <span class="credit">No</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="propertyarea-details">
+                        <input type="radio" name="propertyarea" id="eren-14">
+                        <input type="radio" name="propertyarea" id="eren-15">
+                        <input type="radio" name="propertyarea" id="eren-16">
+                        <span class="propertyarea-title">Property Area</span>
+                        <div class="category7">
+                            <label for="eren-14">
+                                <span class="eren fourteen"></span>
+                                <span class="property">Urban</span>
+                            </label>
+                            <label for="eren-15">
+                                <span class="eren fifteen"></span>
+                                <span class="property">Rural</span>
+                            </label>
+                            <label for="eren-16">
+                                <span class="eren sixteen"></span>
+                                <span class="property">Semi-urban</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 
+            <!--Predict button-->
+            <div class="button">
+                <input type="submit" value="Predict">
+            </div>
+        </form>
+        
+    </div>
+    
+</body>
+</html>
