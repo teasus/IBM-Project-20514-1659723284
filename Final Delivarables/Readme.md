@@ -19,17 +19,17 @@
 
 The required dependences are as follows:
 
-pip install flask
+      pip install flask
 
-pip install numpy 
+      pip install numpy 
 
-pip install pickle
+      pip install pickle
 
-pip install requests
+      pip install requests
 
-pip3 install -U scikit-learn scipy matplotlib
+      pip3 install -U scikit-learn scipy matplotlib
 
-python newIBM.py
+      python newIBM.py
 
 Also make sure you have the scale.pkl and templates files, before your run the newIBM.py
 
