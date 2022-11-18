@@ -9,11 +9,13 @@
 | Domain       | Applied Data Science                                              |
 | Project Name | SMART LENDER - Applicant Credibility Prediction For Loan Approval |
 
-#INSTRUCTIONS TO RUN THE APP :
+----------------------------------------------------------------
 
-Required Softwares : VsCode , Python 3 .
+# INSTRUCTIONS TO RUN THE APP :
 
-Please install the required dependence on your Local Machine before running the newIBM.py
+1. Required Softwares : VsCode , Python 3 .
+
+2 . Please install the required dependence on your Local Machine before running the newIBM.py
 
 The required dependences are as follows:
 
@@ -30,3 +32,5 @@ pip3 install -U scikit-learn scipy matplotlib
 python newIBM.py
 
 Also make sure you have the scale.pkl and templates files, before your run the newIBM.py
+
+(NOTE : if 'newIBM.py' doesn't run , try adding 'python' at front like this  'python newIBM.py'  (without quotes )
