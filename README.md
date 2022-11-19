@@ -18,6 +18,8 @@
 | Team Member-2 | AJITH R        | 113119UG04009   |
 | Team Member-3 | ABISHEK YADAV  | 113119UG04002   |
 
+
+
 ## Problem Statement
 
 The credit system managed by banks is one of the most important variables affecting our country's economic and financial situation. Bank credit risk appraisal is a recognised technique in banks worldwide. "As we all know, credit risk evaluation is critical, and a number of methodologies are utilised to calculate risk level." Furthermore, credit risk is one of the financial community's primary functions.
@@ -47,3 +49,10 @@ One of the most challenging challenges for any bank is predicting loan defaulter
 - Ahmed Rashid, Abishek Yadav - Model Building, Integration
 - Adwaid Babu - Web UI, Integration
 - Abishek Yadav, Ajith - Literature Survey
+
+
+## Demo Video Link
+
+Click the link below to watch the demo video of the project
+
+https://youtu.be/sYT6i-9o6gg
