@@ -2,6 +2,11 @@
 
 # SMART LENDER - Applicant Credibility Prediction For Loan Approval
 
+## Demo Video Link
+
+Click the link below to watch the demo video of the project
+
+https://youtu.be/sYT6i-9o6gg
 ## Project Details
 
 | Team ID      | IBM-Project-20514-1659723284                                      |
@@ -51,8 +56,3 @@ One of the most challenging challenges for any bank is predicting loan defaulter
 - Abishek Yadav, Ajith - Literature Survey
 
 
-## Demo Video Link
-
-Click the link below to watch the demo video of the project
-
-https://youtu.be/sYT6i-9o6gg
